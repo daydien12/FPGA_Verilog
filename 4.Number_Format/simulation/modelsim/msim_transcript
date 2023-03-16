@@ -1,0 +1,76 @@
+# Reading pref.tcl
+# do number_format_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+G:/3.\ FPGA/6.Kit_DE10_Lite/4.Number_Format {G:/3. FPGA/6.Kit_DE10_Lite/4.Number_Format/number_format.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:50:42 on Mar 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/3. FPGA/6.Kit_DE10_Lite/4.Number_Format" G:/3. FPGA/6.Kit_DE10_Lite/4.Number_Format/number_format.v 
+# -- Compiling module number_format
+# 
+# Top level modules:
+# 	number_format
+# End time: 22:50:42 on Mar 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+G:/3.\ FPGA/6.Kit_DE10_Lite/4.Number_Format {G:/3. FPGA/6.Kit_DE10_Lite/4.Number_Format/number_format_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:50:42 on Mar 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/3. FPGA/6.Kit_DE10_Lite/4.Number_Format" G:/3. FPGA/6.Kit_DE10_Lite/4.Number_Format/number_format_testbench.v 
+# -- Compiling module number_format_tb
+# 
+# Top level modules:
+# 	number_format_tb
+# End time: 22:50:43 on Mar 15,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  number_formart_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" number_formart_tb 
+# Start time: 22:50:43 on Mar 15,2023
+# ** Error: (vsim-3170) Could not find 'number_formart_tb'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/fiftyfivenm
+#             G:/3. FPGA/6.Kit_DE10_Lite/4.Number_Format/simulation/modelsim/rtl_work
+#             G:/3. FPGA/6.Kit_DE10_Lite/4.Number_Format/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./number_format_run_msim_rtl_verilog.do PAUSED at line 12
+vsim work.number_format_tb
+# vsim work.number_format_tb 
+# Start time: 22:50:43 on Mar 15,2023
+# Loading work.number_format_tb
+# Loading work.number_format
+add wave -position insertpoint  \
+sim:/number_format_tb/clk \
+sim:/number_format_tb/LED \
+sim:/number_format_tb/count \
+sim:/number_format_tb/x \
+sim:/number_format_tb/y \
+sim:/number_format_tb/s \
+sim:/number_format_tb/u \
+sim:/number_format_tb/m
+run 1ns
+#  s: 00000111     7
+#  u: 00000111     7
+# When 'm' is +4:
+# m:     0100    4
+# x: xxxxxxxx     x
+# y: xxxxxxxx     x
+# When 'm' is -4:
+# m:     1100   -4
+# x: 00001011    11
+# y: 00001011    11  **SURPRISE**

@@ -1,0 +1,29 @@
+
+module sync_counter_4bit (clk,
+                          reset,
+                          cnt);
+    
+    input clk, reset;
+    output [3:0] cnt;
+    reg ja, ka;
+    reg jb, kb;
+    reg jc, kc;
+    reg jd, kd;
+    wire qb;
+    
+    initial begin
+        ja = 1'b1;
+        ka = 1'b1;
+    end
+    
+    always @(posedge clk) begin
+        
+        jb = cnt[0];
+        kb = cnt[0];
+    end
+    
+    jk_flip_flop FFA(.clk(clk), .reset(reset), .j(ja), .k(ka), .q(cnt[0]), .q_bar(qb));
+    jk_flip_flop FFB(.clk(clk), .reset(reset), .j(jb), .k(kb), .q(cnt[1]), .q_bar(qb));
+    
+    
+endmodule

@@ -1,0 +1,130 @@
+# Reading pref.tcl
+# do up_count_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+G:/3.\ FPGA/6.Kit_DE10_Lite/3.up_count {G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/up_count.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:10:58 on Mar 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/3. FPGA/6.Kit_DE10_Lite/3.up_count" G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/up_count.v 
+# -- Compiling module up_count
+# 
+# Top level modules:
+# 	up_count
+# End time: 21:10:58 on Mar 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+G:/3.\ FPGA/6.Kit_DE10_Lite/3.up_count {G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/upcounter_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:10:58 on Mar 15,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/3. FPGA/6.Kit_DE10_Lite/3.up_count" G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/upcounter_testbench.v 
+# -- Compiling module upcounter_testbench
+# 
+# Top level modules:
+# 	upcounter_testbench
+# End time: 21:10:58 on Mar 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  up_counter_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" up_counter_tb 
+# Start time: 21:10:58 on Mar 15,2023
+# ** Error: (vsim-3170) Could not find 'up_counter_tb'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/fiftyfivenm
+#             G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/simulation/modelsim/rtl_work
+#             G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./up_count_run_msim_rtl_verilog.do PAUSED at line 12
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=\"+acc\" work.upcounter_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" work.upcounter_testbench 
+# Start time: 21:10:58 on Mar 15,2023
+# Loading work.upcounter_testbench
+# Loading work.up_count
+add wave -position insertpoint  \
+sim:/upcounter_testbench/clk \
+sim:/upcounter_testbench/reset \
+sim:/upcounter_testbench/counter
+run 1ns
+vlog -reportprogress 300 -work work {G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/up_count.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:12:47 on Mar 15,2023
+# vlog -reportprogress 300 -work work G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/up_count.v 
+# -- Compiling module up_count
+# 
+# Top level modules:
+# 	up_count
+# End time: 21:12:47 on Mar 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/upcounter_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:12:47 on Mar 15,2023
+# vlog -reportprogress 300 -work work G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/upcounter_testbench.v 
+# -- Compiling module upcounter_testbench
+# 
+# Top level modules:
+# 	upcounter_testbench
+# End time: 21:12:47 on Mar 15,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+run
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=\"+acc\" work.upcounter_testbench
+# End time: 21:13:03 on Mar 15,2023, Elapsed time: 0:02:05
+# Errors: 1, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" work.upcounter_testbench 
+# Start time: 21:13:04 on Mar 15,2023
+# Loading work.upcounter_testbench
+# Loading work.up_count
+add wave -position insertpoint  \
+sim:/upcounter_testbench/clk \
+sim:/upcounter_testbench/reset \
+sim:/upcounter_testbench/counter
+run 1ns
+vsim work.upcounter_testbench
+# End time: 21:13:45 on Mar 15,2023, Elapsed time: 0:00:41
+# Errors: 0, Warnings: 0
+# vsim work.upcounter_testbench 
+# Start time: 21:13:45 on Mar 15,2023
+# Loading work.upcounter_testbench
+# Loading work.up_count
+1ns
+# invalid command name "1ns"
+add wave -position insertpoint  \
+sim:/upcounter_testbench/clk \
+sim:/upcounter_testbench/reset \
+sim:/upcounter_testbench/counter
+1ns
+# invalid command name "1ns"
+run 1ns
+vsim work.upcounter_testbench
+# End time: 21:14:17 on Mar 15,2023, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim work.upcounter_testbench 
+# Start time: 21:14:17 on Mar 15,2023
+# Loading work.upcounter_testbench
+# Loading work.up_count
+run 1ns
+add wave -position insertpoint  \
+sim:/upcounter_testbench/clk \
+sim:/upcounter_testbench/reset \
+sim:/upcounter_testbench/counter
+run 1ns
+run 1ns
+run -all
+# ** Error: (vish-4084) Expanded time mode encountered error, cannot proceed with current wlf file
+# Break key hit
+# Break in Module upcounter_testbench at G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/upcounter_testbench.v line 8
+# End time: 21:16:48 on Mar 15,2023, Elapsed time: 0:02:31
+# Errors: 1, Warnings: 0

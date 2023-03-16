@@ -1,0 +1,15 @@
+module sync_counter_4bit_testbench; 
+    reg clk; 
+    reg reset; 
+    reg [3:0] cnt;
+	
+    sync_counter_4bit counter(.clk(clk), .reset(reset), .cnt(cnt));
+	 
+//    initial begin
+//        reset = 0;
+//        clk   = 1;
+//    end
+//    always #1 clk <= ~clk;
+    
+endmodule
+

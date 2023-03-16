@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/3. FPGA/6.Kit_DE10_Lite/3.up_count/simulation/modelsim
+vup_count
+Z1 !s110 1678889567
+!i10b 1
+!s100 8>d0o;Kk_BdAOKjLE^TAW1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IWgJaYC_Y>RhKDj:noKZHo2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1678889559
+8G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/up_count.v
+FG:/3. FPGA/6.Kit_DE10_Lite/3.up_count/up_count.v
+!i122 2
+L0 1 20
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1678889567.000000
+!s107 G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/up_count.v|
+!s90 -reportprogress|300|-work|work|G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/up_count.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vupcounter_testbench
+R1
+!i10b 1
+!s100 IVnU7L_P9h8dnSQ_E?kni3
+R2
+Iml2ZSCdT;7lz[n@1eE5Ql1
+R3
+R0
+w1678888863
+8G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/upcounter_testbench.v
+FG:/3. FPGA/6.Kit_DE10_Lite/3.up_count/upcounter_testbench.v
+!i122 3
+L0 1 15
+R4
+r1
+!s85 0
+31
+R5
+!s107 G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/upcounter_testbench.v|
+!s90 -reportprogress|300|-work|work|G:/3. FPGA/6.Kit_DE10_Lite/3.up_count/upcounter_testbench.v|
+!i113 1
+R6
+R7

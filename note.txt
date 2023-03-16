@@ -1,0 +1,2 @@
+format code trên vsc: shift + alt + f
+6.4bit_Synchronous _Counter

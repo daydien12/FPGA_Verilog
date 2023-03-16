@@ -1,0 +1,15 @@
+|up_count
+clk => counter_up[0].CLK
+clk => counter_up[1].CLK
+clk => counter_up[2].CLK
+clk => counter_up[3].CLK
+reset => counter_up[0].ACLR
+reset => counter_up[1].ACLR
+reset => counter_up[2].ACLR
+reset => counter_up[3].ACLR
+counter[0] <= counter_up[0].DB_MAX_OUTPUT_PORT_TYPE
+counter[1] <= counter_up[1].DB_MAX_OUTPUT_PORT_TYPE
+counter[2] <= counter_up[2].DB_MAX_OUTPUT_PORT_TYPE
+counter[3] <= counter_up[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

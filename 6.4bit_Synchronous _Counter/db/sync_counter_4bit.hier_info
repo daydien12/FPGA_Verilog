@@ -1,0 +1,67 @@
+|sync_counter_4bit
+j => j.IN4
+k => k.IN4
+clk => clk.IN1
+reset => reset.IN4
+q[0] << jk_flip_flop:FFA.q
+q[1] << jk_flip_flop:FFB.q
+q[2] << jk_flip_flop:FFC.q
+q[3] << jk_flip_flop:FFD.q
+q_bar[0] << q_bar[0].DB_MAX_OUTPUT_PORT_TYPE
+q_bar[1] << q_bar[1].DB_MAX_OUTPUT_PORT_TYPE
+q_bar[2] << q_bar[2].DB_MAX_OUTPUT_PORT_TYPE
+q_bar[3] << jk_flip_flop:FFD.q_bar
+
+
+|sync_counter_4bit|jk_flip_flop:FFA
+j => Mux0.IN3
+j => Mux1.IN3
+k => Mux0.IN4
+k => Mux1.IN4
+clk => q_bar~reg0.CLK
+clk => q~reg0.CLK
+reset => q.OUTPUTSELECT
+reset => q_bar.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q_bar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sync_counter_4bit|jk_flip_flop:FFB
+j => Mux0.IN3
+j => Mux1.IN3
+k => Mux0.IN4
+k => Mux1.IN4
+clk => q_bar~reg0.CLK
+clk => q~reg0.CLK
+reset => q.OUTPUTSELECT
+reset => q_bar.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q_bar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sync_counter_4bit|jk_flip_flop:FFC
+j => Mux0.IN3
+j => Mux1.IN3
+k => Mux0.IN4
+k => Mux1.IN4
+clk => q_bar~reg0.CLK
+clk => q~reg0.CLK
+reset => q.OUTPUTSELECT
+reset => q_bar.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q_bar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|sync_counter_4bit|jk_flip_flop:FFD
+j => Mux0.IN3
+j => Mux1.IN3
+k => Mux0.IN4
+k => Mux1.IN4
+clk => q_bar~reg0.CLK
+clk => q~reg0.CLK
+reset => q.OUTPUTSELECT
+reset => q_bar.OUTPUTSELECT
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_bar <= q_bar~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

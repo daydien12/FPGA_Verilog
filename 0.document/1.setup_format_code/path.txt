@@ -1,0 +1,2 @@
+G:/3. FPGA/6.Kit_DE10_Lite/0.document/1.setup_format_code/verilog-format.exe
+G:/3. FPGA/6.Kit_DE10_Lite/0.document/1.setup_format_code/.verilog-format.properties

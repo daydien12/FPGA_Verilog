@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at jk_flip_flop.v(10): object "q" differs only in case from object "Q" in the same scope File: G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/jk_flip_flop.v Line: 10
