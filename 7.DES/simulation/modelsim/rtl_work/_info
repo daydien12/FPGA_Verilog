@@ -1,0 +1,84 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/simulation/modelsim
+vmain
+!s110 1680596638
+!i10b 1
+!s100 SW3iXJLkIAC;]fZ1C<^Tl0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I?<Bj>I[jAmYlOeZ[33mam3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1680596555
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v
+!i122 0
+L0 2 13
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1680596638.000000
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v|
+!i113 1
+Z4 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES
+Z5 tCvgOpt 0
+vPC1
+Z6 !s110 1680596639
+!i10b 1
+!s100 4NAb_d]KE<3Q7l5`lV38J1
+R1
+IczYebaoW@i:Q2Y5:MY[Qe2
+R2
+R0
+w1680577259
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v
+!i122 1
+L0 1 58
+R3
+r1
+!s85 0
+31
+Z7 !s108 1680596639.000000
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v|
+!i113 1
+R4
+Z8 !s92 -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files
+R5
+n@p@c1
+vtestbench
+R6
+!i10b 1
+!s100 I;Ul2Q?U?3[S2]5Q1^[6W2
+R1
+IL7Glm4KI`eT89IT>aGXDg0
+R2
+R0
+w1680596577
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v
+!i122 2
+L0 2 22
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v|
+!i113 1
+R4
+R8
+R5

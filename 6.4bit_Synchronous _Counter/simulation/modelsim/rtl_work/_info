@@ -8,76 +8,76 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dG:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/simulation/modelsim
+Z0 dC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/simulation/modelsim
 vjk_flip_flop
-Z1 !s110 1678949214
+Z1 !s110 1679106796
 !i10b 1
 !s100 zMFDXeV>eK6[KHDF[:@GE2
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ImZVLHjXW1=z^5hj2`LD0;3
+ImJN`J0H2aeDcVYc_^LgzS1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1678948809
-8G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/jk_flip_flop.v
-FG:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/jk_flip_flop.v
+Z4 w1678951820
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/jk_flip_flop.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/jk_flip_flop.v
 !i122 1
 L0 2 45
-Z4 OV;L;2020.1;71
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1678949214.000000
-!s107 G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/jk_flip_flop.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter|G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/jk_flip_flop.v|
+Z6 !s108 1679106796.000000
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/jk_flip_flop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/jk_flip_flop.v|
 !i113 1
-Z6 o-vlog01compat -work work
-Z7 !s92 -vlog01compat -work work {+incdir+G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter}
-Z8 tCvgOpt 0
+Z7 o-vlog01compat -work work
+Z8 !s92 -vlog01compat -work work {+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter}
+Z9 tCvgOpt 0
 vsync_counter_4bit
-R1
+!s110 1679106795
 !i10b 1
 !s100 ?]fn>9Fh:TYW_7[^`4zXf0
 R2
-I7Z<WhYN[BfbdSLB8`R_>_3
+IWV86D=kmSP^TQbTUiO?nL1
 R3
 R0
-w1678947513
-8G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/sync_counter_4bit.v
-FG:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/sync_counter_4bit.v
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/sync_counter_4bit.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/sync_counter_4bit.v
 !i122 0
 L0 2 20
-R4
+R5
 r1
 !s85 0
 31
-R5
-!s107 G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/sync_counter_4bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter|G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/sync_counter_4bit.v|
+!s108 1679106795.000000
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/sync_counter_4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/sync_counter_4bit.v|
 !i113 1
-R6
 R7
 R8
+R9
 vsync_counter_4bit_testbench
 R1
 !i10b 1
-!s100 oXFT40aB<6Hza3`R?hXU?2
+!s100 ;kMlcG?IBU_SnD=o@TB7_1
 R2
-IMBlHm9B4PWg@jCaU9Mg4`3
+Izd:OiaLAU<6O320KJXFi?3
 R3
 R0
-w1678949193
-8G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/sync_counter_4bit_testbench.v
-FG:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/sync_counter_4bit_testbench.v
-!i122 2
-L0 1 16
 R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/sync_counter_4bit_testbench.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/sync_counter_4bit_testbench.v
+!i122 2
+L0 1 19
+R5
 r1
 !s85 0
 31
-R5
-!s107 G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/sync_counter_4bit_testbench.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter|G:/3. FPGA/6.Kit_DE10_Lite/6.4bit_Synchronous _Counter/sync_counter_4bit_testbench.v|
-!i113 1
 R6
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/sync_counter_4bit_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/6.4bit_Synchronous _Counter/sync_counter_4bit_testbench.v|
+!i113 1
 R7
 R8
+R9

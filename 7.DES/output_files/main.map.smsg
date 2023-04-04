@@ -1,0 +1,1 @@
+Info (10281): Verilog HDL Declaration information at testbench.v(4): object "K" differs only in case from object "k" in the same scope File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v Line: 4

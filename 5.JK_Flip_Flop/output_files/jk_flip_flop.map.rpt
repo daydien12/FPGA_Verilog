@@ -1,5 +1,5 @@
 Analysis & Synthesis report for jk_flip_flop
-Thu Mar 16 09:33:21 2023
+Sat Mar 18 09:26:06 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Mar 16 09:33:21 2023       ;
+; Analysis & Synthesis Status        ; Successful - Sat Mar 18 09:26:06 2023       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; jk_flip_flop                                ;
 ; Top-level Entity Name              ; jk_flip_flop                                ;
@@ -153,25 +153,25 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 6           ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 6           ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                           ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                             ; Library ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------+---------+
-; jk_flip_flop.v                   ; yes             ; User Verilog HDL File  ; G:/3. FPGA/6.Kit_DE10_Lite/5.JK_Flip_Flop/jk_flip_flop.v ;         ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                      ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                        ; Library ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------+---------+
+; jk_flip_flop.v                   ; yes             ; User Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/5.JK_Flip_Flop/jk_flip_flop.v ;         ;
++----------------------------------+-----------------+------------------------+-------------------------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------+
@@ -263,14 +263,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu Mar 16 09:33:15 2023
+    Info: Processing started: Sat Mar 18 09:25:52 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off jk_flip_flop -c jk_flip_flop
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file jk_flip_flop.v
-    Info (12023): Found entity 1: jk_flip_flop File: G:/3. FPGA/6.Kit_DE10_Lite/5.JK_Flip_Flop/jk_flip_flop.v Line: 2
+    Info (12023): Found entity 1: jk_flip_flop File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/5.JK_Flip_Flop/jk_flip_flop.v Line: 2
 Info (12021): Found 1 design units, including 1 entities, in source file jk_flip_flop_testbench.v
-    Info (12023): Found entity 1: JK_ff_tb File: G:/3. FPGA/6.Kit_DE10_Lite/5.JK_Flip_Flop/jk_flip_flop_testbench.v Line: 1
+    Info (12023): Found entity 1: JK_ff_tb File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/5.JK_Flip_Flop/jk_flip_flop_testbench.v Line: 1
 Info (12127): Elaborating entity "jk_flip_flop" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -280,9 +280,9 @@ Info (21057): Implemented 8 device resources after synthesis - the final resourc
     Info (21059): Implemented 2 output pins
     Info (21061): Implemented 2 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4779 megabytes
-    Info: Processing ended: Thu Mar 16 09:33:21 2023
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:11
+    Info: Peak virtual memory: 4726 megabytes
+    Info: Processing ended: Sat Mar 18 09:26:06 2023
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:28
 
 
