@@ -1,5 +1,5 @@
 Analysis & Synthesis report for main
-Tue Apr 04 16:04:52 2023
+Wed Apr 05 20:14:00 2023
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -17,7 +17,6 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   9. Post-Synthesis Netlist Statistics for Top Partition
  10. Elapsed Time Per Partition
  11. Analysis & Synthesis Messages
- 12. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -44,13 +43,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Apr 04 16:04:52 2023       ;
+; Analysis & Synthesis Status        ; Successful - Wed Apr 05 20:14:00 2023       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; main                                        ;
 ; Top-level Entity Name              ; main                                        ;
 ; Family                             ; MAX 10                                      ;
-; Total logic elements               ; 0                                           ;
-;     Total combinational functions  ; 0                                           ;
+; Total logic elements               ; 3,968                                       ;
+;     Total combinational functions  ; 3,968                                       ;
 ;     Dedicated logic registers      ; 0                                           ;
 ; Total registers                    ; 0                                           ;
 ; Total pins                         ; 192                                         ;
@@ -158,61 +157,220 @@ https://fpgasoftware.intel.com/eula.
 ; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 1           ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                 ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                   ; Library ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
-; main.v                           ; yes             ; User Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v             ;         ;
-; output_files/PC1.v               ; yes             ; User Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v ;         ;
-+----------------------------------+-----------------+------------------------+--------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                             ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                         ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------+---------+
+; main.v                           ; yes             ; User Verilog HDL File        ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v   ;         ;
+; ip.v                             ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip.v     ;         ;
+; pc1.v                            ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc1.v    ;         ;
+; pc2.v                            ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc2.v    ;         ;
+; e.v                              ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/e.v      ;         ;
+; s1.v                             ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v     ;         ;
+; s2.v                             ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v     ;         ;
+; s3.v                             ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v     ;         ;
+; s4.v                             ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v     ;         ;
+; s5.v                             ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v     ;         ;
+; s6.v                             ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v     ;         ;
+; s7.v                             ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v     ;         ;
+; s8.v                             ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v     ;         ;
+; p.v                              ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/p.v      ;         ;
+; ip_inv.v                         ; yes             ; Auto-Found Verilog HDL File  ; C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip_inv.v ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary         ;
-+---------------------------------------------+-------+
-; Resource                                    ; Usage ;
-+---------------------------------------------+-------+
-;                                             ;       ;
-; Total combinational functions               ; 0     ;
-; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 0     ;
-;     -- 3 input functions                    ; 0     ;
-;     -- <=2 input functions                  ; 0     ;
-;                                             ;       ;
-; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 0     ;
-;     -- arithmetic mode                      ; 0     ;
-;                                             ;       ;
-; Total registers                             ; 0     ;
-;     -- Dedicated logic registers            ; 0     ;
-;     -- I/O registers                        ; 0     ;
-;                                             ;       ;
-; I/O pins                                    ; 192   ;
-;                                             ;       ;
-; Embedded Multiplier 9-bit elements          ; 0     ;
-;                                             ;       ;
-; Maximum fan-out node                        ; in[1] ;
-; Maximum fan-out                             ; 1     ;
-; Total fan-out                               ; 248   ;
-; Average fan-out                             ; 0.65  ;
-+---------------------------------------------+-------+
++-------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                 ;
++---------------------------------------------+---------------+
+; Resource                                    ; Usage         ;
++---------------------------------------------+---------------+
+; Estimated Total logic elements              ; 3,968         ;
+;                                             ;               ;
+; Total combinational functions               ; 3968          ;
+; Logic element usage by number of LUT inputs ;               ;
+;     -- 4 input functions                    ; 3354          ;
+;     -- 3 input functions                    ; 411           ;
+;     -- <=2 input functions                  ; 203           ;
+;                                             ;               ;
+; Logic elements by mode                      ;               ;
+;     -- normal mode                          ; 3968          ;
+;     -- arithmetic mode                      ; 0             ;
+;                                             ;               ;
+; Total registers                             ; 0             ;
+;     -- Dedicated logic registers            ; 0             ;
+;     -- I/O registers                        ; 0             ;
+;                                             ;               ;
+; I/O pins                                    ; 192           ;
+;                                             ;               ;
+; Embedded Multiplier 9-bit elements          ; 0             ;
+;                                             ;               ;
+; Maximum fan-out node                        ; key[52]~input ;
+; Maximum fan-out                             ; 18            ;
+; Total fan-out                               ; 15311         ;
+; Average fan-out                             ; 3.52          ;
++---------------------------------------------+---------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
-; |main                      ; 0 (0)               ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 192  ; 0            ; 0          ; |main               ; main        ; work         ;
-+----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+---------------------+-------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                              ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; UFM Blocks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; ADC blocks ; Full Hierarchy Name               ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------+-------------+--------------+
+; |main                      ; 3968 (239)          ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 192  ; 0            ; 0          ; |main                             ; main        ; work         ;
+;    |f:blk[10].f_inst|      ; 233 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[10].f_inst            ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[10].f_inst|S1:S1_inst ; S1          ; work         ;
+;       |S2:S2_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[10].f_inst|S2:S2_inst ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[10].f_inst|S3:S3_inst ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[10].f_inst|S4:S4_inst ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[10].f_inst|S5:S5_inst ; S5          ; work         ;
+;       |S6:S6_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[10].f_inst|S6:S6_inst ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[10].f_inst|S7:S7_inst ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[10].f_inst|S8:S8_inst ; S8          ; work         ;
+;    |f:blk[11].f_inst|      ; 225 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[11].f_inst            ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[11].f_inst|S1:S1_inst ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[11].f_inst|S2:S2_inst ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[11].f_inst|S3:S3_inst ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[11].f_inst|S4:S4_inst ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[11].f_inst|S5:S5_inst ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[11].f_inst|S6:S6_inst ; S6          ; work         ;
+;       |S7:S7_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[11].f_inst|S7:S7_inst ; S7          ; work         ;
+;       |S8:S8_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[11].f_inst|S8:S8_inst ; S8          ; work         ;
+;    |f:blk[12].f_inst|      ; 230 (53)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[12].f_inst            ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[12].f_inst|S1:S1_inst ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[12].f_inst|S2:S2_inst ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[12].f_inst|S3:S3_inst ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[12].f_inst|S4:S4_inst ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[12].f_inst|S5:S5_inst ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[12].f_inst|S6:S6_inst ; S6          ; work         ;
+;       |S7:S7_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[12].f_inst|S7:S7_inst ; S7          ; work         ;
+;       |S8:S8_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[12].f_inst|S8:S8_inst ; S8          ; work         ;
+;    |f:blk[13].f_inst|      ; 244 (56)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[13].f_inst            ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[13].f_inst|S1:S1_inst ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[13].f_inst|S2:S2_inst ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[13].f_inst|S3:S3_inst ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[13].f_inst|S4:S4_inst ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[13].f_inst|S5:S5_inst ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[13].f_inst|S6:S6_inst ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[13].f_inst|S7:S7_inst ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[13].f_inst|S8:S8_inst ; S8          ; work         ;
+;    |f:blk[14].f_inst|      ; 236 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[14].f_inst            ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[14].f_inst|S1:S1_inst ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[14].f_inst|S2:S2_inst ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[14].f_inst|S3:S3_inst ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[14].f_inst|S4:S4_inst ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[14].f_inst|S5:S5_inst ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[14].f_inst|S6:S6_inst ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[14].f_inst|S7:S7_inst ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[14].f_inst|S8:S8_inst ; S8          ; work         ;
+;    |f:blk[15].f_inst|      ; 233 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[15].f_inst            ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[15].f_inst|S1:S1_inst ; S1          ; work         ;
+;       |S2:S2_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[15].f_inst|S2:S2_inst ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[15].f_inst|S3:S3_inst ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[15].f_inst|S4:S4_inst ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[15].f_inst|S5:S5_inst ; S5          ; work         ;
+;       |S6:S6_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[15].f_inst|S6:S6_inst ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[15].f_inst|S7:S7_inst ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[15].f_inst|S8:S8_inst ; S8          ; work         ;
+;    |f:blk[16].f_inst|      ; 228 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[16].f_inst            ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[16].f_inst|S1:S1_inst ; S1          ; work         ;
+;       |S2:S2_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[16].f_inst|S2:S2_inst ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[16].f_inst|S3:S3_inst ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[16].f_inst|S4:S4_inst ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[16].f_inst|S5:S5_inst ; S5          ; work         ;
+;       |S6:S6_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[16].f_inst|S6:S6_inst ; S6          ; work         ;
+;       |S7:S7_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[16].f_inst|S7:S7_inst ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[16].f_inst|S8:S8_inst ; S8          ; work         ;
+;    |f:blk[1].f_inst|       ; 236 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[1].f_inst             ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[1].f_inst|S1:S1_inst  ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[1].f_inst|S2:S2_inst  ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[1].f_inst|S3:S3_inst  ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[1].f_inst|S4:S4_inst  ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[1].f_inst|S5:S5_inst  ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[1].f_inst|S6:S6_inst  ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[1].f_inst|S7:S7_inst  ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[1].f_inst|S8:S8_inst  ; S8          ; work         ;
+;    |f:blk[2].f_inst|       ; 236 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[2].f_inst             ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[2].f_inst|S1:S1_inst  ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[2].f_inst|S2:S2_inst  ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[2].f_inst|S3:S3_inst  ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[2].f_inst|S4:S4_inst  ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[2].f_inst|S5:S5_inst  ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[2].f_inst|S6:S6_inst  ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[2].f_inst|S7:S7_inst  ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[2].f_inst|S8:S8_inst  ; S8          ; work         ;
+;    |f:blk[3].f_inst|       ; 236 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[3].f_inst             ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[3].f_inst|S1:S1_inst  ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[3].f_inst|S2:S2_inst  ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[3].f_inst|S3:S3_inst  ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[3].f_inst|S4:S4_inst  ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[3].f_inst|S5:S5_inst  ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[3].f_inst|S6:S6_inst  ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[3].f_inst|S7:S7_inst  ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[3].f_inst|S8:S8_inst  ; S8          ; work         ;
+;    |f:blk[4].f_inst|       ; 236 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[4].f_inst             ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[4].f_inst|S1:S1_inst  ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[4].f_inst|S2:S2_inst  ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[4].f_inst|S3:S3_inst  ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[4].f_inst|S4:S4_inst  ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[4].f_inst|S5:S5_inst  ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[4].f_inst|S6:S6_inst  ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[4].f_inst|S7:S7_inst  ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[4].f_inst|S8:S8_inst  ; S8          ; work         ;
+;    |f:blk[5].f_inst|       ; 225 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[5].f_inst             ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[5].f_inst|S1:S1_inst  ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[5].f_inst|S2:S2_inst  ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[5].f_inst|S3:S3_inst  ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[5].f_inst|S4:S4_inst  ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[5].f_inst|S5:S5_inst  ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[5].f_inst|S6:S6_inst  ; S6          ; work         ;
+;       |S7:S7_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[5].f_inst|S7:S7_inst  ; S7          ; work         ;
+;       |S8:S8_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[5].f_inst|S8:S8_inst  ; S8          ; work         ;
+;    |f:blk[6].f_inst|       ; 225 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[6].f_inst             ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[6].f_inst|S1:S1_inst  ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[6].f_inst|S2:S2_inst  ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[6].f_inst|S3:S3_inst  ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[6].f_inst|S4:S4_inst  ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[6].f_inst|S5:S5_inst  ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[6].f_inst|S6:S6_inst  ; S6          ; work         ;
+;       |S7:S7_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[6].f_inst|S7:S7_inst  ; S7          ; work         ;
+;       |S8:S8_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[6].f_inst|S8:S8_inst  ; S8          ; work         ;
+;    |f:blk[7].f_inst|       ; 236 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[7].f_inst             ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[7].f_inst|S1:S1_inst  ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[7].f_inst|S2:S2_inst  ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[7].f_inst|S3:S3_inst  ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[7].f_inst|S4:S4_inst  ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[7].f_inst|S5:S5_inst  ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[7].f_inst|S6:S6_inst  ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[7].f_inst|S7:S7_inst  ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[7].f_inst|S8:S8_inst  ; S8          ; work         ;
+;    |f:blk[8].f_inst|       ; 236 (48)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[8].f_inst             ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[8].f_inst|S1:S1_inst  ; S1          ; work         ;
+;       |S2:S2_inst|         ; 22 (22)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[8].f_inst|S2:S2_inst  ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[8].f_inst|S3:S3_inst  ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[8].f_inst|S4:S4_inst  ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[8].f_inst|S5:S5_inst  ; S5          ; work         ;
+;       |S6:S6_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[8].f_inst|S6:S6_inst  ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[8].f_inst|S7:S7_inst  ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[8].f_inst|S8:S8_inst  ; S8          ; work         ;
+;    |f:blk[9].f_inst|       ; 234 (49)            ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[9].f_inst             ; f           ; work         ;
+;       |S1:S1_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[9].f_inst|S1:S1_inst  ; S1          ; work         ;
+;       |S2:S2_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[9].f_inst|S2:S2_inst  ; S2          ; work         ;
+;       |S3:S3_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[9].f_inst|S3:S3_inst  ; S3          ; work         ;
+;       |S4:S4_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[9].f_inst|S4:S4_inst  ; S4          ; work         ;
+;       |S5:S5_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[9].f_inst|S5:S5_inst  ; S5          ; work         ;
+;       |S6:S6_inst|         ; 18 (18)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[9].f_inst|S6:S6_inst  ; S6          ; work         ;
+;       |S7:S7_inst|         ; 23 (23)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[9].f_inst|S7:S7_inst  ; S7          ; work         ;
+;       |S8:S8_inst|         ; 24 (24)             ; 0 (0)                     ; 0           ; 0          ; 0            ; 0       ; 0         ; 0    ; 0            ; 0          ; |main|f:blk[9].f_inst|S8:S8_inst  ; S8          ; work         ;
++----------------------------+---------------------+---------------------------+-------------+------------+--------------+---------+-----------+------+--------------+------------+-----------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -237,12 +395,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 192                         ;
-; cycloneiii_lcell_comb ; 1                           ;
-;     normal            ; 1                           ;
-;         0 data inputs ; 1                           ;
+; cycloneiii_lcell_comb ; 3968                        ;
+;     normal            ; 3968                        ;
+;         2 data inputs ; 203                         ;
+;         3 data inputs ; 411                         ;
+;         4 data inputs ; 3354                        ;
 ;                       ;                             ;
-; Max LUT depth         ; 0.00                        ;
-; Average LUT depth     ; 0.00                        ;
+; Max LUT depth         ; 72.00                       ;
+; Average LUT depth     ; 71.12                       ;
 +-----------------------+-----------------------------+
 
 
@@ -251,7 +411,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:01:27     ;
 +----------------+--------------+
 
 
@@ -261,118 +421,213 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Tue Apr 04 16:04:37 2023
+    Info: Processing started: Wed Apr 05 20:12:18 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off main -c main
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Info (12021): Found 2 design units, including 2 entities, in source file main.v
-    Info (12023): Found entity 1: KS_left_shift File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 2
-    Info (12023): Found entity 2: main File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 7
-Info (12021): Found 1 design units, including 1 entities, in source file output_files/pc1.v
-    Info (12023): Found entity 1: PC1 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v Line: 1
-Info (12021): Found 1 design units, including 1 entities, in source file output_files/testbench.v
-    Info (12023): Found entity 1: testbench File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v Line: 2
+Info (12021): Found 4 design units, including 4 entities, in source file main.v
+    Info (12023): Found entity 1: f File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 2
+    Info (12023): Found entity 2: KS_left_shift File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 25
+    Info (12023): Found entity 3: KS File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 30
+    Info (12023): Found entity 4: main File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 84
+Warning (12019): Can't analyze file -- file output_files/PC1.v is missing
+Warning (12019): Can't analyze file -- file output_files/testbench.v is missing
 Info (12127): Elaborating entity "main" for the top level hierarchy
-Warning (10034): Output port "out[64..57]" at main.v(11) has no driver File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 11
-Info (12128): Elaborating entity "PC1" for hierarchy "PC1:pc1_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 14
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "out[57]" is stuck at GND File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 11
-    Warning (13410): Pin "out[58]" is stuck at GND File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 11
-    Warning (13410): Pin "out[59]" is stuck at GND File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 11
-    Warning (13410): Pin "out[60]" is stuck at GND File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 11
-    Warning (13410): Pin "out[61]" is stuck at GND File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 11
-    Warning (13410): Pin "out[62]" is stuck at GND File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 11
-    Warning (13410): Pin "out[63]" is stuck at GND File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 11
-    Warning (13410): Pin "out[64]" is stuck at GND File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 11
-Info (144001): Generated suppressed messages file C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/main.map.smsg
+Warning (12125): Using design file ip.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: IP File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip.v Line: 1
+Info (12128): Elaborating entity "IP" for hierarchy "IP:ip_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 90
+Info (12128): Elaborating entity "KS" for hierarchy "KS:ks_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 99
+Warning (10230): Verilog HDL assignment warning at main.v(58): truncated value with size 32 to match size of target (5) File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 58
+Warning (12125): Using design file pc1.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: PC1 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc1.v Line: 1
+Info (12128): Elaborating entity "PC1" for hierarchy "KS:ks_inst|PC1:pc1_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 47
+Info (12128): Elaborating entity "KS_left_shift" for hierarchy "KS:ks_inst|KS_left_shift:blk[1].KS_ls_inst1" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 59
+Warning (12125): Using design file pc2.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: PC2 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc2.v Line: 1
+Info (12128): Elaborating entity "PC2" for hierarchy "KS:ks_inst|PC2:blk[1].pc2_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 61
+Info (12128): Elaborating entity "f" for hierarchy "f:blk[1].f_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 105
+Warning (12125): Using design file e.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: E File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/e.v Line: 1
+Info (12128): Elaborating entity "E" for hierarchy "f:blk[1].f_inst|E:E_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 4
+Warning (12125): Using design file s1.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: S1 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 1
+Info (12128): Elaborating entity "S1" for hierarchy "f:blk[1].f_inst|S1:S1_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 12
+Warning (12125): Using design file s2.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: S2 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 1
+Info (12128): Elaborating entity "S2" for hierarchy "f:blk[1].f_inst|S2:S2_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 13
+Warning (12125): Using design file s3.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: S3 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 1
+Info (12128): Elaborating entity "S3" for hierarchy "f:blk[1].f_inst|S3:S3_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 14
+Warning (12125): Using design file s4.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: S4 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 1
+Info (12128): Elaborating entity "S4" for hierarchy "f:blk[1].f_inst|S4:S4_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 15
+Warning (12125): Using design file s5.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: S5 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 1
+Info (12128): Elaborating entity "S5" for hierarchy "f:blk[1].f_inst|S5:S5_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 16
+Warning (12125): Using design file s6.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: S6 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 1
+Info (12128): Elaborating entity "S6" for hierarchy "f:blk[1].f_inst|S6:S6_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 17
+Warning (12125): Using design file s7.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: S7 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 1
+Info (12128): Elaborating entity "S7" for hierarchy "f:blk[1].f_inst|S7:S7_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 18
+Warning (12125): Using design file s8.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: S8 File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 1
+Info (12128): Elaborating entity "S8" for hierarchy "f:blk[1].f_inst|S8:S8_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 19
+Warning (12125): Using design file p.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: P File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/p.v Line: 1
+Info (12128): Elaborating entity "P" for hierarchy "f:blk[1].f_inst|P:P_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 22
+Warning (12125): Using design file ip_inv.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: IP_inv File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip_inv.v Line: 1
+Info (12128): Elaborating entity "IP_inv" for hierarchy "IP_inv:ip_inv_inst" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 110
+Info (276014): Found 128 instances of uninferred RAM logic
+    Info (276013): RAM logic "f:blk[2].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[4].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[6].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[8].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[10].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[12].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[14].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[16].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[1].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[3].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[5].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[7].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[9].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[11].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[13].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[15].f_inst|S5:S5_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v Line: 2
+    Info (276013): RAM logic "f:blk[2].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[4].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[6].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[8].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[10].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[12].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[14].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[16].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[1].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[3].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[5].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[7].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[9].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[11].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[13].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[15].f_inst|S1:S1_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v Line: 2
+    Info (276013): RAM logic "f:blk[2].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[4].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[6].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[8].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[10].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[12].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[14].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[16].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[1].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[3].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[5].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[7].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[9].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[11].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[13].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[15].f_inst|S4:S4_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v Line: 2
+    Info (276013): RAM logic "f:blk[2].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[4].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[6].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[8].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[10].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[12].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[14].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[16].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[1].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[3].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[5].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[7].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[9].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[11].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[13].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[15].f_inst|S2:S2_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v Line: 2
+    Info (276013): RAM logic "f:blk[2].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[4].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[6].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[8].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[10].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[12].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[14].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[16].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[1].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[3].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[5].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[7].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[9].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[11].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[13].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[15].f_inst|S8:S8_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v Line: 2
+    Info (276013): RAM logic "f:blk[2].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[4].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[6].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[8].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[10].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[12].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[14].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[16].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[1].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[3].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[5].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[7].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[9].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[11].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[13].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[15].f_inst|S6:S6_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v Line: 2
+    Info (276013): RAM logic "f:blk[2].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[4].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[6].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[8].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[10].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[12].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[14].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[16].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[1].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[3].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[5].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[7].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[9].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[11].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[13].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[15].f_inst|S7:S7_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v Line: 2
+    Info (276013): RAM logic "f:blk[2].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[4].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[6].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[8].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[10].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[12].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[14].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[16].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[1].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[3].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[5].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[7].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[9].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[11].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[13].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+    Info (276013): RAM logic "f:blk[15].f_inst|S3:S3_inst|Ram0" is uninferred because MIF is not supported for the selected family File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v Line: 2
+Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Warning (21074): Design contains 72 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "in[1]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[2]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[3]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[4]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[5]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[6]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[7]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[8]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[9]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[10]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[11]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[12]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[13]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[14]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[15]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[16]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[17]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[18]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[19]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[20]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[21]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[22]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[23]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[24]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[25]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[26]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[27]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[28]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[29]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[30]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[31]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[32]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[33]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[34]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[35]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[36]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[37]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[38]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[39]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[40]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[41]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[42]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[43]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[44]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[45]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[46]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[47]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[48]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[49]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[50]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[51]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[52]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[53]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[54]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[55]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[56]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[57]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[58]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[59]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[60]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[61]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[62]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[63]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "in[64]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 8
-    Warning (15610): No output dependent on input pin "key[1]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 9
-    Warning (15610): No output dependent on input pin "key[9]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 9
-    Warning (15610): No output dependent on input pin "key[17]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 9
-    Warning (15610): No output dependent on input pin "key[25]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 9
-    Warning (15610): No output dependent on input pin "key[33]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 9
-    Warning (15610): No output dependent on input pin "key[41]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 9
-    Warning (15610): No output dependent on input pin "key[49]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 9
-    Warning (15610): No output dependent on input pin "key[57]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 9
-Info (21057): Implemented 192 device resources after synthesis - the final resource count might be different
+Warning (21074): Design contains 8 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "key[1]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 86
+    Warning (15610): No output dependent on input pin "key[9]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 86
+    Warning (15610): No output dependent on input pin "key[17]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 86
+    Warning (15610): No output dependent on input pin "key[25]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 86
+    Warning (15610): No output dependent on input pin "key[33]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 86
+    Warning (15610): No output dependent on input pin "key[41]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 86
+    Warning (15610): No output dependent on input pin "key[49]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 86
+    Warning (15610): No output dependent on input pin "key[57]" File: C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v Line: 86
+Info (21057): Implemented 4160 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 128 input pins
     Info (21059): Implemented 64 output pins
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 84 warnings
-    Info: Peak virtual memory: 4729 megabytes
-    Info: Processing ended: Tue Apr 04 16:04:52 2023
-    Info: Elapsed time: 00:00:15
-    Info: Total CPU time (on all processors): 00:00:31
-
-
-+------------------------------------------+
-; Analysis & Synthesis Suppressed Messages ;
-+------------------------------------------+
-The suppressed messages can be found in C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/main.map.smsg.
+    Info (21061): Implemented 3968 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 27 warnings
+    Info: Peak virtual memory: 4757 megabytes
+    Info: Processing ended: Wed Apr 05 20:14:00 2023
+    Info: Elapsed time: 00:01:42
+    Info: Total CPU time (on all processors): 00:01:53
 
 

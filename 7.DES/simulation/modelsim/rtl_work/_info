@@ -9,76 +9,475 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/simulation/modelsim
-vmain
-!s110 1680596638
+vE
+Z1 !s110 1680700506
 !i10b 1
-!s100 SW3iXJLkIAC;]fZ1C<^Tl0
-Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I?<Bj>I[jAmYlOeZ[33mam3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s100 H4KgXA<N`;fVTBfBlAdo63
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYKTgYbZAV@:Ll77=X0>z_1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1680596555
-8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v
-FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v
-!i122 0
-L0 2 13
-Z3 OV;L;2020.1;71
+Z4 w1582622011
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/e.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/e.v
+!i122 4
+Z5 L0 1 50
+Z6 OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1680596638.000000
-!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v|
+Z7 !s108 1680700506.000000
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/e.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/e.v|
 !i113 1
-Z4 o-vlog01compat -work work
-!s92 -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES
-Z5 tCvgOpt 0
+Z8 o-vlog01compat -work work
+Z9 !s92 -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES
+Z10 tCvgOpt 0
+n@e
+vf
+Z11 !s110 1680700505
+!i10b 1
+!s100 F4NmBPzZ<RlaURnbPXb1J1
+R2
+I=9b:KM^YTizmdW4bXnOWY3
+R3
+R0
+Z12 w1680698467
+Z13 8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v
+Z14 FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v
+!i122 0
+L0 2 22
+R6
+r1
+!s85 0
+31
+Z15 !s108 1680700505.000000
+Z16 !s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v|
+Z17 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v|
+!i113 1
+R8
+R9
+R10
+vIP
+R1
+!i10b 1
+!s100 52IFKabfA8?::4NzJ9[=32
+R2
+II1nP_Po=jKBOG]KEk537K1
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip.v
+!i122 1
+Z18 L0 1 66
+R6
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip.v|
+!i113 1
+R8
+R9
+R10
+n@i@p
+vIP_inv
+Z19 !s110 1680700508
+!i10b 1
+!s100 @?cGd@N00fDKR^:XSMQd63
+R2
+Ij44iXNi3OIhlnlOm]H1S83
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip_inv.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip_inv.v
+!i122 14
+R18
+R6
+r1
+!s85 0
+31
+Z20 !s108 1680700508.000000
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip_inv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip_inv.v|
+!i113 1
+R8
+R9
+R10
+n@i@p_inv
+vKS
+R11
+!i10b 1
+!s100 NHc^4SQlL=4YGVi>d_^^M0
+R2
+I:MVLazic@FIkQmP^?gj_o2
+R3
+R0
+R12
+R13
+R14
+!i122 0
+L0 30 52
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R8
+R9
+R10
+n@k@s
+vKS_left_shift
+R11
+!i10b 1
+!s100 5_ZoG>AJC8DPRGlYCX>@H0
+R2
+IGiWgW7RaWUjIh`?zC::VL2
+R3
+R0
+R12
+R13
+R14
+!i122 0
+L0 25 4
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R8
+R9
+R10
+n@k@s_left_shift
+vmain
+R11
+!i10b 1
+!s100 GAEoUV::HbjABWl;=OmLC2
+R2
+IgDONYN0`4RJeH^]V1QfO51
+R3
+R0
+R12
+R13
+R14
+!i122 0
+L0 84 28
+R6
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 1
+R8
+R9
+R10
+vP
+Z21 !s110 1680700507
+!i10b 1
+!s100 Mi@0]3MHXOM>90RZ_l4383
+R2
+IYOcC@5BToe1CA=`T2F=<N1
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/p.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/p.v
+!i122 13
+L0 1 34
+R6
+r1
+!s85 0
+31
+Z22 !s108 1680700507.000000
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/p.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/p.v|
+!i113 1
+R8
+R9
+R10
+n@p
 vPC1
-Z6 !s110 1680596639
+R1
 !i10b 1
 !s100 4NAb_d]KE<3Q7l5`lV38J1
-R1
-IczYebaoW@i:Q2Y5:MY[Qe2
 R2
-R0
-w1680577259
-8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v
-FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v
-!i122 1
-L0 1 58
+Ij?=]2k;jaEeL88al=Gken0
 R3
-r1
-!s85 0
-31
-Z7 !s108 1680596639.000000
-!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v|
-!i113 1
+R0
 R4
-Z8 !s92 -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files
-R5
-n@p@c1
-vtestbench
-R6
-!i10b 1
-!s100 I;Ul2Q?U?3[S2]5Q1^[6W2
-R1
-IL7Glm4KI`eT89IT>aGXDg0
-R2
-R0
-w1680596577
-8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v
-FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc1.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc1.v
 !i122 2
-L0 2 22
-R3
+L0 1 58
+R6
 r1
 !s85 0
 31
 R7
-!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v|
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc1.v|
 !i113 1
-R4
 R8
+R9
+R10
+n@p@c1
+vPC2
+R1
+!i10b 1
+!s100 49T03F]mXck864cB[N:_j1
+R2
+I^SiAHZ>aZj=PkGYL93^R[3
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc2.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc2.v
+!i122 3
 R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc2.v|
+!i113 1
+R8
+R9
+R10
+n@p@c2
+vS1
+R1
+!i10b 1
+!s100 e[^<=;a<emMi_ZjZUhKjC0
+R2
+ITez9@iiIBUUTH@9UWcVlz0
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v
+!i122 5
+Z23 L0 1 68
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v|
+!i113 1
+R8
+R9
+R10
+n@s1
+vS2
+R1
+!i10b 1
+!s100 =lS9F:fhNa]hHTz;7J7[d1
+R2
+ID9Mf;K^1^@E6LTLIKFgBc2
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v
+!i122 6
+R23
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v|
+!i113 1
+R8
+R9
+R10
+n@s2
+vS3
+R21
+!i10b 1
+!s100 kf;KNY5m]XXRX9T9AG=a;1
+R2
+I[Nf?b5766E184`T`[ekfz0
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v
+!i122 7
+R23
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v|
+!i113 1
+R8
+R9
+R10
+n@s3
+vS4
+R21
+!i10b 1
+!s100 M3GkN9j2ZKRaS3zSVG>cm0
+R2
+IKB1C4U=WSdm6]TFo]a;ma1
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v
+!i122 8
+R23
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v|
+!i113 1
+R8
+R9
+R10
+n@s4
+vS5
+R21
+!i10b 1
+!s100 UU3nn;B@9=RQKWXR9cG?c2
+R2
+I@[Gj`2;`0YgHgQkW^?C:B3
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v
+!i122 9
+R23
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v|
+!i113 1
+R8
+R9
+R10
+n@s5
+vS6
+R21
+!i10b 1
+!s100 96mzF1c=zf=A;PWBT[H^b3
+R2
+I4cG1GR>zjJFl?KzmkCFDJ0
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v
+!i122 10
+R23
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v|
+!i113 1
+R8
+R9
+R10
+n@s6
+vS7
+R21
+!i10b 1
+!s100 hcVFH0mSemc;26L90Li^j1
+R2
+IE]QV63N68Nh3c5[K9R7i11
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v
+!i122 11
+R23
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v|
+!i113 1
+R8
+R9
+R10
+n@s7
+vS8
+R21
+!i10b 1
+!s100 iU=T<iRi69LlAlebF1=9J2
+R2
+I1nCY[bI[:a8g<f7CSW<nk3
+R3
+R0
+R4
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v
+!i122 12
+R23
+R6
+r1
+!s85 0
+31
+R22
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v|
+!i113 1
+R8
+R9
+R10
+n@s8
+vtestbench
+R19
+!i10b 1
+!s100 2ROHg1@_<A;HXoY]F1g1[1
+R2
+IJ=Bz4Yi7O=oh8z5^=U2W=3
+R3
+R0
+w1680700334
+8C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/testbench.v
+FC:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/testbench.v
+!i122 15
+L0 2 14
+R6
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES|C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/testbench.v|
+!i113 1
+R8
+R9
+R10

@@ -12,61 +12,198 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:23:58 on Apr 04,2023
+# Start time: 20:15:05 on Apr 05,2023
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/main.v 
+# -- Compiling module f
+# -- Compiling module KS_left_shift
+# -- Compiling module KS
 # -- Compiling module main
 # 
 # Top level modules:
 # 	main
-# End time: 15:23:58 on Apr 04,2023, Elapsed time: 0:00:00
+# End time: 20:15:05 on Apr 05,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:23:59 on Apr 04,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/PC1.v 
+# Start time: 20:15:05 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip.v 
+# -- Compiling module IP
+# 
+# Top level modules:
+# 	IP
+# End time: 20:15:06 on Apr 05,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:06 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc1.v 
 # -- Compiling module PC1
 # 
 # Top level modules:
 # 	PC1
-# End time: 15:23:59 on Apr 04,2023, Elapsed time: 0:00:00
+# End time: 20:15:06 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:06 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/pc2.v 
+# -- Compiling module PC2
+# 
+# Top level modules:
+# 	PC2
+# End time: 20:15:06 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/e.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:06 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/e.v 
+# -- Compiling module E
+# 
+# Top level modules:
+# 	E
+# End time: 20:15:06 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:06 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s1.v 
+# -- Compiling module S1
+# 
+# Top level modules:
+# 	S1
+# End time: 20:15:06 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:06 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s2.v 
+# -- Compiling module S2
+# 
+# Top level modules:
+# 	S2
+# End time: 20:15:06 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:07 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s3.v 
+# -- Compiling module S3
+# 
+# Top level modules:
+# 	S3
+# End time: 20:15:07 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:07 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s4.v 
+# -- Compiling module S4
+# 
+# Top level modules:
+# 	S4
+# End time: 20:15:07 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:07 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s5.v 
+# -- Compiling module S5
+# 
+# Top level modules:
+# 	S5
+# End time: 20:15:07 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:07 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s6.v 
+# -- Compiling module S6
+# 
+# Top level modules:
+# 	S6
+# End time: 20:15:07 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:07 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s7.v 
+# -- Compiling module S7
+# 
+# Top level modules:
+# 	S7
+# End time: 20:15:07 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:07 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/s8.v 
+# -- Compiling module S8
+# 
+# Top level modules:
+# 	S8
+# End time: 20:15:07 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/p.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:07 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/p.v 
+# -- Compiling module P
+# 
+# Top level modules:
+# 	P
+# End time: 20:15:07 on Apr 05,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip_inv.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:15:08 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/ip_inv.v 
+# -- Compiling module IP_inv
+# 
+# Top level modules:
+# 	IP_inv
+# End time: 20:15:08 on Apr 05,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES {C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/testbench.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:23:59 on Apr 04,2023
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/output_files/testbench.v 
+# Start time: 20:15:08 on Apr 05,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES" C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/testbench.v 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 15:23:59 on Apr 04,2023, Elapsed time: 0:00:00
+# End time: 20:15:08 on Apr 05,2023, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  DES_TESTBENCH
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" DES_TESTBENCH 
-# Start time: 15:23:59 on Apr 04,2023
-# ** Error: (vsim-3170) Could not find 'DES_TESTBENCH'.
-#         Searched libraries:
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/220model
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/sgate
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_mf
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/altera_lnsim
-#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/verilog/fiftyfivenm
-#             C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/simulation/modelsim/rtl_work
-#             C:/Users/nguye/OneDrive/Documents/github/FPGA_Verilog/7.DES/simulation/modelsim/rtl_work
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./main_run_msim_rtl_verilog.do PAUSED at line 13
-vsim work.testbench
-# vsim work.testbench 
-# Start time: 15:23:59 on Apr 04,2023
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 20:15:08 on Apr 05,2023
 # Loading work.testbench
 # Loading work.main
+# Loading work.IP
+# Loading work.KS
 # Loading work.PC1
-add wave -position insertpoint sim:/testbench/*
-run 1ns
-#                    0 M=0x85abcd1a98876543, K=0xa1b2c3d4e5f61234, OUT=0xzz3f3cb3e66b800a
-# End time: 17:09:42 on Apr 04,2023, Elapsed time: 1:45:43
-# Errors: 1, Warnings: 0
+# Loading work.IP_inv
+# Loading work.KS_left_shift
+# Loading work.PC2
+# Loading work.f
+# Loading work.E
+# Loading work.S1
+# Loading work.S2
+# Loading work.S3
+# Loading work.S4
+# Loading work.S5
+# Loading work.S6
+# Loading work.S7
+# Loading work.S8
+# Loading work.P
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 M=0x0bbd010363a955c0, K=0xa1b2c3d4e5f61234, OUT=0x3ec8eb0a5e67251d
+# End time: 20:23:12 on Apr 05,2023, Elapsed time: 0:08:04
+# Errors: 0, Warnings: 0
